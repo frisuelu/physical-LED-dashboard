@@ -1,5 +1,7 @@
 # IoT project for LED physical dashboard
 
+![Physical dashboard picture](./static/physical-LED-dashboard.jpg)
+
 Code for sensor data streaming to a remote server/computer using Raspberry Pi Pico and ESP8266 WIFI modules.
 
 ## Structure
