@@ -2,6 +2,8 @@
 
 ![Physical dashboard picture](./static/physical-LED-dashboard.jpg)
 
+https://github.com/frisuelu/physical-LED-dashboard/assets/141048434/f4c35e20-f229-4ad6-b8c9-fc34abb1572c
+
 Code for sensor data streaming to a remote server/computer using Raspberry Pi Pico and ESP8266 WIFI modules.
 
 ## Structure
