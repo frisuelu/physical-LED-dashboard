@@ -1,0 +1,9 @@
+# Log files
+.vscode
+*.log
+
+# Env files
+*.env
+
+# Intermediate build folder (to speed compile process)
+build

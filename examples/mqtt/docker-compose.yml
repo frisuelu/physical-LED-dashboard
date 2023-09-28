@@ -1,0 +1,19 @@
+# Docker image for the EMQX MQTT broker.
+
+# NOTE: if a TCP/IP port is already in use via some process:
+#       - netstat -tulnp shows the processes
+#       - kill <PID> closes the process
+
+version: '3'
+
+services:
+  emqx:
+    image: emqx/emqx:latest
+    user: root
+    environment:
+      - "EMQX_NAME=emqx"
+      - "EMQX_HOST=172.26.0.1"
+      - "EMQX_ALLOW_ANONYMOUS=true"
+    ports:
+      - 1883:1883 # This is the unauth port for the ESP8266 (SSL is on 8883)
+      - 18083:18083 # This is the EMQX dashboard
